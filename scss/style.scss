@@ -1,0 +1,195 @@
+/*  BIO */
+
+*{ 
+	margin: 0;
+
+ } 
+ 
+
+header {
+	width: 100%;
+	text-align: right;
+}
+
+
+$MiAzul: blue;
+$MiRojo: red;
+
+h1 {
+	color:$MiAzul;
+	background-color: beige;
+	font-size: 20px;
+	font-family: arial;
+	width: 300px;
+	height: 30px;
+	overflow: hidden;
+	margin: 50px 20px; 
+	padding: 30px 5px;
+	text-align: center;
+	border: 1px  dashed black;
+	display: block;
+}
+
+h2{
+  color:$MiRojo;
+	font-family: sans-serif;
+}
+
+h3{
+	color:$MiAzul;
+}
+
+h5{
+	text-align: center;
+}
+
+h5{
+	text-transform: uppercase;
+}
+
+#gmail {
+	color:darkblue;
+}
+
+.parrafo2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  	height: 50px;
+	color:$MiAzul;
+	font-weight: bold;
+}
+
+
+.parrafo3{
+	color:red;
+	font-style: italic;
+}
+
+
+.parrafoprensa{
+	letter-spacing: 5px;
+}
+
+.parrafoprensa {
+	color:darkblue;
+}
+
+
+.parrafoprensa{
+	font-family: 'Roboto Condensed', sans-serif; 
+}
+
+
+
+li {
+	list-style: none;
+	display: inline-block;
+	list-style-position: left;
+	padding: 10px 30px;
+	color:red
+	
+}
+
+#grid{
+  display: grid;
+  grid-template-columns:  300px 300px 300px 300px;
+  justify-items: center; /* start | end | center | stretch */
+  align-items: center; /* start | end | center | stretch */
+  width: 95%;
+  grid-column-gap: 0px;
+  grid-template-rows: 300px 300px 300px 300px;
+  grid-row-gap: 30px;
+  font-size: 30px;
+  padding: 15px;
+  border: solid 5px;
+}
+
+.Colección {
+
+	border: solid 3px;
+	padding: 60px;
+  background-image: linear-gradient(to top, green,yellow);
+  transform: skewY(3deg);
+
+}
+
+.colección {
+  padding 15px
+}
+
+
+
+/*
+
+item{
+	background-color: red;
+	border: 1px dashed black;
+  padding: 15px;
+  align-self: stretch;
+  justify-self: stretch;
+
+}
+
+
+#grilla {
+   display: grid;
+   grid-template-areas:
+    "juan nav nav"
+     "productos productos publicidad"
+     "servicios servicios publicidad"
+     "footer footer footer";
+   grid-template-rows: 100px 200px 200px; 
+   grid-template-columns: 100px 200px 300px;
+   grid-column-gap:10px;
+   grid-row-gap:10px;
+}
+.border {
+   border: 1px solid black;
+}
+header {
+   grid-area: juan;
+}
+footer {
+   grid-area: footer;
+}
+section#productos {
+   grid-area: productos;     
+}
+section#servicios {
+   grid-area: servicios;     
+}
+nav {
+   grid-area: nav;
+}
+aside {
+   grid-area: publicidad;
+}
+
+@media only screen and (max-width: 768px) {
+	#grilla {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      .border {
+    	border: 4px solid black;
+    	background-color: blue;
+     }
+     div h3{
+     	font-size: 20px;
+     	color:red;
+     }
+}
+@media only screen and (min-width: 1024px) {
+	#grilla {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .border {
+    	border: 4px dashed blue;
+    	background-color: green;
+     }
+      div h3{
+     	font-size: 40px;
+     	color:yellow;
+     }
+}
+*/
